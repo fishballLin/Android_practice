@@ -15,6 +15,23 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <receiver
+            android:name=".MainReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="fishballLin.Toast"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="fishballLin.Dialog"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="fishballLin.Notification"/>
+            </intent-filter>
+
+        </receiver>>
+        <activity android:name=".DialogActivity" android:theme="@style/Theme.Transparent"/>
     </application>
 
 </manifest>
