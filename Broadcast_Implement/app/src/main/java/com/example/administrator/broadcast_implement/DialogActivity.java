@@ -15,7 +15,6 @@ public class DialogActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dialog);
-        Log.i("XDD", "start");
         Intent intent = getIntent();
         String msg = intent.getStringExtra(MainActivity.KEY_MSG);
         AlertDialog.Builder dialog = new AlertDialog.Builder(DialogActivity.this);

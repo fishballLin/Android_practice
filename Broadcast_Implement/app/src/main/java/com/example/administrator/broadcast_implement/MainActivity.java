@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
                 Intent intent = new Intent();
                 intent.setAction("fishballLin.Toast");
                 intent.putExtra(KEY_MSG, et_Input.getText().toString());
-                Log.i("XDD", "send");
                 sendBroadcast(intent);
             }
         });
