@@ -17,16 +17,17 @@ public class DialogActivity extends Activity {
         setContentView(R.layout.activity_dialog);
         Intent intent = getIntent();
         String msg = intent.getStringExtra(MainActivity.KEY_MSG);
-        AlertDialog.Builder dialog = new AlertDialog.Builder(DialogActivity.this);
-        dialog.setTitle("Receive Message :" + msg);
-        //dialog.setMessage(msg);
-        dialog.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+
+        AlertDialog alert = new AlertDialog.Builder(DialogActivity.this)
+        .setTitle("Receive Message :" + msg)
+        .setPositiveButton("OK", new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface arg0, int arg1) {
                 finish();
             }
-        });
-        AlertDialog alert = dialog.create();
+        })
+        .create();
+
         alert.show();
     }
 }
