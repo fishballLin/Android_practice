@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
 import android.content.Intent;
+import android.os.Build;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
@@ -38,8 +39,15 @@ public class MainActivity extends AppCompatActivity {
         bt_Set.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                int setHour = timePicker.getCurrentHour();
-                int setMinute = timePicker.getCurrentMinute();
+                int setHour, setMinute;
+                if(Build.VERSION.SDK_INT < 23){
+                    setHour = timePicker.getCurrentHour();
+                    setMinute = timePicker.getCurrentMinute();
+                }
+                else{
+                    setHour = timePicker.getHour();
+                    setMinute = timePicker.getMinute();
+                }
                 calendar.setTimeInMillis(System.currentTimeMillis());
                 Log.i("XDD", "time" + String.valueOf(setHour) + " " + String.valueOf(setMinute));
                 calendar.set(Calendar.HOUR_OF_DAY, setHour);
