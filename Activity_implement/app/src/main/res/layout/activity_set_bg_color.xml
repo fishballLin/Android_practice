@@ -7,50 +7,39 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.administrator.activity_implement.MainActivity"
-    android:id="@+id/bg">
+    tools:context="com.example.administrator.activity_implement.SetBgColor">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical"
-        >
+        android:orientation="horizontal">
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/call"
-            android:text="撥號"
-            android:gravity="center"/>
+            android:layout_weight="1"
+            android:text="白色"
+            android:gravity="center"
+            android:id="@+id/white"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/mail"
-            android:text="寄信"
-            android:gravity="center"/>
+            android:layout_weight="1"
+            android:text="黃色"
+            android:gravity="center"
+            android:id="@+id/yellow"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/web"
-            android:text="網頁"
-            android:gravity="center"/>
+            android:layout_weight="1"
+            android:text="藍色"
+            android:gravity="center"
+            android:id="@+id/blue"/>
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/map"
-            android:text="地圖"
-            android:gravity="center"/>
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/bg_color"
-                android:text="設定背景顏色"
-                android:layout_alignParentBottom="true"
-                android:gravity="center"/>
-        </RelativeLayout>
-
+            android:layout_weight="1"
+            android:text="綠色"
+            android:gravity="center"
+            android:id="@+id/green"/>
     </LinearLayout>
-
 </RelativeLayout>
