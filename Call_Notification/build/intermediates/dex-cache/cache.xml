@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\Call_Notification\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\Call_Notification\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.2.0_62f413e2321a480ab9beb719c052ce0835ac07b3.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\Call_Notification\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\Call_Notification\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.2.0_7184ad128543af8cd0e2e4089ee4db431d8fb65a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\Call_Notification\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\Call_Notification\app\build\intermediates\pre-dexed\debug\internal_impl-23.2.0_c2df8042d9c6d74e64c06088da5aa90179d68e26.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\Call_Notification\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\Call_Notification\app\build\intermediates\pre-dexed\debug\com.android.support-support-vector-drawable-23.2.0_27e83301415f30a17617cd1d1324dc67d9e8625a.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\Call_Notification\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\Call_Notification\app\build\intermediates\pre-dexed\debug\com.android.support-animated-vector-drawable-23.2.0_b44775ea5cc4c6e6740cd7c39c7ec6bbe63bf3f6.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\Call_Notification\app\build\intermediates\pre-dexed\debug\support-annotations-23.2.0_9c0f5810d981b3d6ea1d4d17ff3403fa1d230941.jar" />
+    </item>
+
+</items>

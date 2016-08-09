@@ -56,11 +56,11 @@ public class MainActivity extends AppCompatActivity {
                 calendar.set(Calendar.MILLISECOND, 0);
                 if(System.currentTimeMillis() > calendar.getTimeInMillis())
                     calendar.add(Calendar.DAY_OF_MONTH, 1);
-                //Long interval = 1000L * 5;
+                long interval = 1000 * 60 * 60 * 24;
                 pendingIntent = PendingIntent.getBroadcast(MainActivity.this, setHour * 60 + setMinute, intent, 0);
                 Log.i("XDD", "before manager");
-                alarmManager.setInexactRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), 5000, pendingIntent);
-                //alarmManager.set(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), pendingIntent);
+                //alarmManager.setRepeating(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), interval, pendingIntent);
+                alarmManager.set(AlarmManager.RTC_WAKEUP, calendar.getTimeInMillis(), pendingIntent);
                 String str = String.valueOf(calendar.get(Calendar.DAY_OF_MONTH)) + " " + String.valueOf(calendar.get(Calendar.HOUR_OF_DAY)) + ":"+ String.valueOf(calendar.get(Calendar.MINUTE));
                 Toast.makeText(MainActivity.this, str, Toast.LENGTH_SHORT).show();
             }
