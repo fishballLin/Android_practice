@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\Lobster_game\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\Lobster_game\app\build\intermediates\pre-dexed\release\com.android.support-support-v4-23.2.0_8b5c298527518b93e8ab5577761b66b0aa3c3f9c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\Lobster_game\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\Lobster_game\app\build\intermediates\pre-dexed\release\com.android.support-animated-vector-drawable-23.2.0_bb7b28983a6f7e418e8a90936dbc02196cca874f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.2.0\support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\Lobster_game\app\build\intermediates\pre-dexed\release\support-annotations-23.2.0_9c0f5810d981b3d6ea1d4d17ff3403fa1d230941.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\Lobster_game\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\Lobster_game\app\build\intermediates\pre-dexed\release\com.android.support-appcompat-v7-23.2.0_8a57bd6b409e254caa4b76a1664cf0c45ac6a05e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\Lobster_game\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.2.0\jars\libs\internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\Lobster_game\app\build\intermediates\pre-dexed\release\internal_impl-23.2.0_d1c93702f1fbab67dbb58810c1d8140dd7f67c5d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Administrator\AndroidStudioProjects\Lobster_game\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\23.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="C:\Users\Administrator\AndroidStudioProjects\Lobster_game\app\build\intermediates\pre-dexed\release\com.android.support-support-vector-drawable-23.2.0_75cf0a90a5eb5db18b6dc9cbac9e7a0e1e178c1b.jar" />
+    </item>
+
+</items>
